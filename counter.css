@@ -24,7 +24,7 @@ body
 }
 #container h2
 {
-    color: #14916c;
+    color: #86ecf0;
     font-size: 50px;
     position: absolute;
     top: 8%;
@@ -43,18 +43,15 @@ body
 }
 #buttons
 {
-    height: 50px;
-    width: 360px;
-    position: absolute; 
-    bottom: 8%;
-    left: 25%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #buttons button
 {
     height: 50px;
     width: 80px;
-    background: #1479ff;
+    background: #bac5db;
     outline: none;
     border-radius: 5px;
     color: #fff;
@@ -64,15 +61,21 @@ body
 #increment
 {
     position: absolute;
-    right: 0;
+    display: inline-block;
+    bottom: 20%;
+    right: 25%;
 }
 #decrement
 {
     position: absolute;
-    left: 0;
+    display: inline-block;
+    bottom: 20%;
+    left: 25%;
 }
 #reset
 {
     position: absolute;
-    top:8%;
+    display: inline-block;
+    bottom: 5%;
+    justify-content: center;
 }
